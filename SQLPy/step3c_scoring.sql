@@ -1,6 +1,6 @@
 -- Stored Procedure to score a data set on a trained model stored in the Models table. 
 
--- @model_name: specify 'RF' to use the Random Forest,  or 'GBT' for Boosted Trees.
+-- @model_name: specify 'RF' to train a Random Forest, 'GBT' for Boosted Trees, 'FT' for Fast Trees, or 'NN' for Neural Network.
 -- @inquery: select the dataset to be scored (the testing set for Development, or the featurized data set for Production). 
 -- @output: name of the table that will hold the predictions. 
 

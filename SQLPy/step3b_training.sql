@@ -1,6 +1,6 @@
 -- Stored Procedure to train a Random Forest (rxDForest implementation) or Boosted Trees (rxFastTrees implementation).
 
--- @model_name: specify 'RF' to train a Random Forest,  or 'GBT' for Boosted Trees.
+-- @model_name: specify 'RF' to train a Random Forest, 'GBT' for Boosted Trees, 'FT' for Fast Trees, or 'NN' for Neural Network.
 -- @dataset_name: specify the name of the featurized data set. 
 
 SET ANSI_NULLS ON

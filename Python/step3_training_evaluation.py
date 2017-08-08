@@ -78,6 +78,7 @@ print("Formula: ", formula)
 ##########################################################################################################################################
 
 ## Functions to automate hyperparameter tuning. They use internal oob error estimates as the basis for tuning.
+## NOTE: When it comes to tuning, Cross Validation or a Train-Validate-Test split would be better than using OOB error.
 
 ##########################################################################################################################################
 

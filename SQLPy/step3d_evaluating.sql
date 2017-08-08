@@ -1,6 +1,6 @@
 -- Stored Procedure to evaluate the models tested.
 
--- @model_name: specify 'RF' to use the Random Forest,  or 'GBT' for Boosted Trees.
+-- @model_name: specify 'RF' to train a Random Forest, 'GBT' for Boosted Trees, 'FT' for Fast Trees, or 'NN' for Neural Network.
 -- @predictions_table : name of the table that holds the predictions (output of scoring).
 
 SET ANSI_NULLS ON
